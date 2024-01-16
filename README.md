@@ -1,2 +1,2 @@
-# lesson_09_01_new
-Test repository
+# lessons_python_basic
+Main repository for Python Learning
