@@ -23,12 +23,12 @@
 #############################################################
 # Задача 2. Перемістити елемент у списку | Done
 
-my_list = [12, 3, 4, 10]        # Змінився
+# my_list = [12, 3, 4, 10]        # Змінився
 # my_list = [1]                 # Не змінився
 # my_list = []                  # Не змінився
 # my_list = [12, 3, 4, 10, 8]   # Змінився
 
-if len(my_list) > 1:
-    my_list.insert(0, my_list.pop())
-
-print(my_list)
+# if len(my_list) > 1:
+#     my_list.insert(0, my_list.pop())
+#
+# print(my_list)
