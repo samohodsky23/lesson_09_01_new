@@ -1,4 +1,4 @@
-# Samohodskyi HomeWork
+# Samohodskyi homework
 # Задача 1. Найпростіший калькулятор | Done
 
 # number_1 = int(input())
