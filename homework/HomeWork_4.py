@@ -17,15 +17,19 @@ my_list = [0, 1, 7, 2, 4, 8]
 # my_list = [6]
 # my_list = []
 
-result = 0
-
-for item in my_list:
-    index = my_list.index(item)
-    if index % 2 == 0:
-        result += item
-if len(my_list):
-    result = result * my_list[-1]
-else:
-    result = 0
-
+result = sum(my_list[::2]) * my_list[-1]        # Найкращий варіант
 print(result)
+
+
+# result = 0
+#
+# for item in my_list:
+#     index = my_list.index(item)
+#     if index % 2 == 0:
+#         result += item
+# if len(my_list):
+#     result = result * my_list[-1]
+# else:
+#     result = 0
+#
+# print(result)
