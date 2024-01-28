@@ -30,7 +30,7 @@ for letter in user_string:
 if user_string in reserved_words:
     print(False)
 
-elif is_punctuation is True:
+elif is_punctuation:
     print(False)
 
 elif numeric:
@@ -40,10 +40,10 @@ elif user_string[0].isdigit():
     first_num = True
     print(False)
 
-elif is_space is True:
+elif is_space:
     print(False)
 
-elif is_upper is True:
+elif is_upper:
     print(False)
 
 
