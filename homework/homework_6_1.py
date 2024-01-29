@@ -1,11 +1,5 @@
 # Ex. 1
 
-# dict_1 = {'name': 'John', 'age': 15}
-# dict_2 = {'name': 'Jack', 'age': 45}
-# dict_3 = {'name': 'Charles', 'age': 15}
-# dict_4 = {'name': 'Arthur', 'age': 39}
-
-# my_list = [dict_1, dict_2, dict_3, dict_4]
 my_list = [{'name': 'John', 'age': 15},
            {'name': 'Jack', 'age': 45},
            {'name': 'Charles', 'age': 15},
