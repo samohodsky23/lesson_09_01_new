@@ -1,19 +1,23 @@
 # Modified calculator
 
-
-# correct_actions = ['+', '-', '/', '*']
-# while action not in correct_actions:
-#     print('Такої операції немає в списку! Спробуй ще.')
-#     action = input()
-
-# program_is_running = True
-
 while True:
-    number_1 = float(input('Enter the first number: '))
+    number_1 = input('Enter the first number: ')
+    if not number_1.isdigit():
+        print('Undefined number! Try again.')
+        continue
+    number_1 = float(number_1)
 
+    correct_actions = ['+', '-', '/', '*']
     action = input('Enter the operator: ')
+    if action not in correct_actions:
+        print('Unavailable operator! Try again.')
+        continue
 
-    number_2 = float(input('Enter the second number: '))
+    number_2 = input('Enter the second number: ')
+    if not number_2.isdigit():
+        print('Undefined number! Try again.')
+        continue
+    number_2 = float(number_2)
 
     result = float
 
@@ -32,14 +36,7 @@ while True:
     else:
         result = number_1 / number_2
         print(result)
-    if input('Do you want to continue? Y/N?') != 'Y':
+    var_cont = input('Do you want to continue? Y/N? ')
+    if var_cont.lower() != 'y':
+        print('Good bye!')
         break
-print(result)
-
-# while program_is_running:
-#
-#     answer = input('Бажаєте продовжити? \n'
-#                    'Введіть "y", якщо так і будь-який інший, якщо ні: ')
-#     if answer != 'y':
-#         program_is_running = False
-#     else:
