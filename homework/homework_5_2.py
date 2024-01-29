@@ -6,9 +6,8 @@
 #     print('Такої операції немає в списку! Спробуй ще.')
 #     action = input()
 
-
-
 # program_is_running = True
+
 while True:
     number_1 = float(input('Enter the first number: '))
 
