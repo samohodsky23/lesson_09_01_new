@@ -47,7 +47,7 @@ class Group:
 
     def add_student(self, student):
         self.group.add(student)
-        if len(self.group) >= 10:
+        if len(self.group) > 10:
             raise StudentException('Too many students!')
 
     def delete_student(self, last_name):

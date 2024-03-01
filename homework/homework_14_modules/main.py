@@ -14,5 +14,5 @@ gr.add_student(st3)
 assert gr.find_student('Jobs') == st1  # 'Steve Jobs'
 assert gr.find_student('Jobs2') is None
 
-s
+
 print(gr)  # Only one student
